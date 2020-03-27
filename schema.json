@@ -116,13 +116,13 @@
           },
           "startDate": {
             "type": "string",
-            "description": "resume.json uses the ISO 8601 date standard e.g. 2014-06-29",
-            "format": "date"
+            "description": "e.g. 2014-06-29",
+            "pattern": "^([0-9]{4}-[0-9]{2}-[0-9]{2}|[0-9]{4}-[0-9]{2}|[0-9]{4})$"
           },
           "endDate": {
             "type": "string",
             "description": "e.g. 2012-06-29",
-            "format": "date"
+            "pattern": "^([0-9]{4}-[0-9]{2}-[0-9]{2}|[0-9]{4}-[0-9]{2}|[0-9]{4})$"
           },
           "summary": {
             "type": "string",
@@ -162,13 +162,13 @@
           },
           "startDate": {
             "type": "string",
-            "description": "resume.json uses the ISO 8601 date standard e.g. 2014-06-29",
-            "format": "date"
+            "description": "e.g. 2014-06-29",
+            "pattern": "^([0-9]{4}-[0-9]{2}-[0-9]{2}|[0-9]{4}-[0-9]{2}|[0-9]{4})$"
           },
           "endDate": {
             "type": "string",
             "description": "e.g. 2012-06-29",
-            "format": "date"
+            "pattern": "^([0-9]{4}-[0-9]{2}-[0-9]{2}|[0-9]{4}-[0-9]{2}|[0-9]{4})$"
           },
           "summary": {
             "type": "string",
@@ -208,12 +208,12 @@
           "startDate": {
             "type": "string",
             "description": "e.g. 2014-06-29",
-            "format": "date"
+            "pattern": "^([0-9]{4}-[0-9]{2}-[0-9]{2}|[0-9]{4}-[0-9]{2}|[0-9]{4})$"
           },
           "endDate": {
             "type": "string",
             "description": "e.g. 2012-06-29",
-            "format": "date"
+            "pattern": "^([0-9]{4}-[0-9]{2}-[0-9]{2}|[0-9]{4}-[0-9]{2}|[0-9]{4})$"
           },
           "gpa": {
             "type": "string",
@@ -246,7 +246,7 @@
           "date": {
             "type": "string",
             "description": "e.g. 1989-06-12",
-            "format": "date"
+            "pattern": "^([0-9]{4}-[0-9]{2}-[0-9]{2}|[0-9]{4}-[0-9]{2}|[0-9]{4})$"
           },
           "awarder": {
             "type": "string",
@@ -277,7 +277,8 @@
           },
           "releaseDate": {
             "type": "string",
-            "description": "e.g. 1990-08-01"
+            "description": "e.g. 1990-08-01",
+            "pattern": "^([0-9]{4}-[0-9]{2}-[0-9]{2}|[0-9]{4}-[0-9]{2}|[0-9]{4})$"
           },
           "url": {
             "type": "string",
@@ -414,13 +415,13 @@
           },
           "startDate": {
             "type": "string",
-            "description": "resume.json uses the ISO 8601 date standard e.g. 2014-06-29",
-            "format": "date"
+            "description": "2014-06-29",
+            "pattern": "^([0-9]{4}-[0-9]{2}-[0-9]{2}|[0-9]{4}-[0-9]{2}|[0-9]{4})$"
           },
           "endDate": {
             "type": "string",
             "description": "e.g. 2012-06-29",
-            "format": "date"
+            "pattern": "^([0-9]{4}-[0-9]{2}-[0-9]{2}|[0-9]{4}-[0-9]{2}|[0-9]{4})$"
           },
           "url": {
             "type": "string",
