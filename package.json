@@ -1,7 +1,7 @@
 {
-  "name": "resume-schema",
+  "name": "resume-schema-ibic",
   "version": "0.0.18",
-  "description": "JSON Resume Schema",
+  "description": "JSON Resume Schema (fork to support optional date)",
   "main": "validator.js",
   "scripts": {
     "test": "tape **/*.spec.js | tap-spec",
@@ -10,11 +10,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/jsonresume/resume-schema.git"
+    "url": "git://github.com/houtianze/resume-schema-ibic.git"
   },
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/jsonresume/resume-schema/issues"
+    "url": "https://github.com/houtianze/resume-schema-ibic/issues"
   },
   "files": [
     "resume.json",
