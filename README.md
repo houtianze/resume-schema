@@ -6,7 +6,7 @@
 
 Fork changes
 ------------
-- Make `null` as an accepted value for `endDate` (which infers "Present")*
+- Make `null` as an accepted value for `endDate` (which infers "Present")
 
 Standard, Specification, Schema
 
