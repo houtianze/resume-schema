@@ -4,6 +4,10 @@
 
 [![Build Status](https://api.travis-ci.org/jsonresume/resume-schema.svg)](http://travis-ci.org/jsonresume/resume-schema) [![Dependency Status](https://david-dm.org/jsonresume/resume-schema.svg)](https://david-dm.org/jsonresume/resume-schema)
 
+Fork changes
+------------
+- Make `null` as an accepted value for `endDate` (which infers "Present")*
+
 Standard, Specification, Schema
 
 We are still currently un-versioned, some core changes are being pushed out, and a version 0.0.0 will be released following [Semantic Versioning 2.0.0](SemVer.org) best practices. We will be experimenting with a `migration.js` system, where each change below will be represented with a function that can update an older version of `resume.json` to the newer versions.
